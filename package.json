@@ -1,6 +1,6 @@
 {
     "name": "@uvarovag/eslint-config-feature-sliced-flat",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "main": "eslint.config.js",
     "type": "module",
     "scripts": {
@@ -19,7 +19,7 @@
     ],
     "author": "@uvarovag",
     "license": "MIT",
-    "description": "eslint-config-feature-sliced-flat",
+    "description": "@feature-sliced/eslint-config adapter for ESLint 9 Flat Config",
     "homepage": "https://github.com/uvarovag/eslint-config-feature-sliced-flat/blob/master/README.md",
     "repository": {
         "type": "git",
