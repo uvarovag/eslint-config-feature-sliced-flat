@@ -1,7 +1,5 @@
 # @feature-sliced/eslint-config adapter for ESLint 9 Flat Config
 
-A shared ESLint configuration for TypeScript and React projects.
-
 ## Installation
 
 To use this configuration in your project, install the required dependencies:
