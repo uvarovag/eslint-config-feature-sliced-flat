@@ -10,7 +10,7 @@ To use this configuration in your project, install the required dependencies:
 npm install --save-dev @uvarovag/eslint-config-feature-sliced-flat eslint@^9.16.0
 ```
 
-## Usage: Create a `eslint.config.json` file
+## Usage: Create a `eslint.config.js` file
 
 ```js
 import featureSliced from '@uvarovag/eslint-config-feature-sliced-flat'

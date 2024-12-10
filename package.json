@@ -1,6 +1,6 @@
 {
     "name": "@uvarovag/eslint-config-feature-sliced-flat",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "eslint.config.js",
     "scripts": {
         "login": "npm login",
