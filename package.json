@@ -1,6 +1,6 @@
 {
     "name": "@uvarovag/eslint-config-feature-sliced-flat",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "main": "eslint.config.js",
     "type": "module",
     "scripts": {
