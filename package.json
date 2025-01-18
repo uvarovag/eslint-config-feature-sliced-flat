@@ -1,12 +1,12 @@
 {
     "name": "@uvarovag/eslint-config-feature-sliced-flat",
-    "version": "1.0.8",
+    "version": "1.0.9",
+    "description": "@feature-sliced/eslint-config adapter for ESLint 9 Flat Config",
     "main": "eslint.config.js",
     "type": "module",
     "scripts": {
-        "login": "npm login",
-        "publish": "npm publish --access public",
-        "fix": "npm pkg fix && npx prettier --write '**/*.{ts,tsx,js,json,css,html,md}'"
+        "fix": "prettier --write '**/*.{ts,tsx,js,json,css,html,md}' && npm pkg fix",
+        "publish": "npm run fix && npm publish --access public"
     },
     "keywords": [
         "eslint",
@@ -19,7 +19,6 @@
     ],
     "author": "@uvarovag",
     "license": "MIT",
-    "description": "@feature-sliced/eslint-config adapter for ESLint 9 Flat Config",
     "homepage": "https://github.com/uvarovag/eslint-config-feature-sliced-flat/blob/master/README.md",
     "repository": {
         "type": "git",
@@ -31,7 +30,7 @@
         "eslint-plugin-import": "^2.31.0"
     },
     "devDependencies": {
-        "@uvarovag/prettier-config": "^1.0.1",
+        "@uvarovag/prettier-config": "^1.0.6",
         "prettier": "^3.4.1"
     },
     "peerDependencies": {
