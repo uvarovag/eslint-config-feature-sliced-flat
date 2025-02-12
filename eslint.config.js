@@ -1,6 +1,6 @@
+import { createRequire } from 'module'
 import boundaries from 'eslint-plugin-boundaries'
 import importPlugin from 'eslint-plugin-import'
-import { createRequire } from 'module'
 
 const require = createRequire(import.meta.url)
 
@@ -9,7 +9,7 @@ const layersSlices = require('@feature-sliced/eslint-config/rules/layers-slices'
 const publicApi = require('@feature-sliced/eslint-config/rules/public-api')
 
 export const importOrderFlat = {
-    files: ['**/*.js', '**/*.ts', '**/*.jsx', '**/*.tsx'],
+    files: ['**/*.{js,ts,jsx,tsx}'],
     plugins: {
         import: importPlugin,
     },
@@ -17,7 +17,7 @@ export const importOrderFlat = {
 }
 
 export const layersSlicesFlat = {
-    files: ['**/*.js', '**/*.ts', '**/*.jsx', '**/*.tsx'],
+    files: ['**/*.{js,ts,jsx,tsx}'],
     ...boundaries.configs.recommended,
     plugins: {
         boundaries,
@@ -27,7 +27,7 @@ export const layersSlicesFlat = {
 }
 
 export const publicApiFlat = {
-    files: ['**/*.js', '**/*.ts', '**/*.jsx', '**/*.tsx'],
+    files: ['**/*.{js,ts,jsx,tsx}'],
     plugins: {
         import: importPlugin,
     },

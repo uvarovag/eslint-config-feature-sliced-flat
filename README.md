@@ -5,7 +5,7 @@
 To use this configuration in your project, install the required dependencies:
 
 ```bash
-npm install --save-dev @uvarovag/eslint-config-feature-sliced-flat eslint@^9.16.0
+npm install --save-dev @uvarovag/eslint-config-feature-sliced-flat eslint@^9.20.1
 ```
 
 ## Usage

@@ -1,6 +1,6 @@
 {
     "name": "@uvarovag/eslint-config-feature-sliced-flat",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "@feature-sliced/eslint-config adapter for ESLint 9 Flat Config",
     "main": "eslint.config.js",
     "type": "module",
@@ -34,6 +34,6 @@
         "prettier": "^3.4.1"
     },
     "peerDependencies": {
-        "eslint": "^9.16.0"
+        "eslint": "^9.20.1"
     }
 }
