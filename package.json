@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "fix": "prettier --write '**/*.{ts,tsx,js,json,css,html,md}' && npm pkg fix",
-        "deploy": "npm run fix && npm publish --access public"
+        "deploy": "npm run fix && npm publish"
     },
     "keywords": [
         "eslint",
@@ -23,6 +23,9 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/uvarovag/eslint-config-feature-sliced-flat.git"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "dependencies": {
         "@feature-sliced/eslint-config": "^0.1.1",
